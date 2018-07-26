@@ -1,0 +1,91 @@
+body {
+    background: #fefefe;
+    margin: 0;
+    padding: 0;    
+    font: .8em "verdana";
+}
+
+#container {
+    width: 1000px;
+    margin: auto;
+    background: transparent;
+    margin-top: 100px;
+}
+
+.calc {
+    width: 300px;
+    height: 300px;
+    float: left;
+    border: 0px solid #e0e0e0;
+    padding-top: 20px
+}
+
+.disp {
+    width: 650px;
+    height: 320px;
+    /*background: #f5f5f5;*/
+    float: right;
+    border: 1px solid #e0e0e0;
+    /*overflow: scroll;*/
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+    border-collapse: collapse;
+}
+
+th {
+    color: #a0a0a0;
+}
+
+.clear {
+    clear: both;
+}
+
+input[type="button"] {
+    background: #2cbbdd;
+    border: 0px solid #fff;
+    color: #fff;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 232px;
+    height: 10px;
+    padding: 10px;
+    display: block;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 254px;
+    height: 30px;
+    margin: auto;
+    display: block;
+    background: #58adb4;
+    border-width: 0px;
+    color: #fff;
+}
+
+.disp_calc {
+    width: 220px;
+    text-align: center;
+    height: 50px;
+    padding: 0px;
+    margin: auto;
+    font-size: 10px;
+    font-weight: bold;
+    color: #838383
+}
+
+
+.calc input {
+    margin: auto;
+}
+.
